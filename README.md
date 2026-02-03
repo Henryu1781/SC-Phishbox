@@ -16,7 +16,12 @@ O projeto é composto por três serviços:
 - **ClamAV**: motor de detecção para análise de anexos.
 - **IMAP**: leitura e movimentação de e-mails para pastas de triagem.
 
-Mais detalhes em [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
+Mais detalhes:
+
+- [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)
+- [docs/CONFIGURATION.md](docs/CONFIGURATION.md)
+- [docs/OPERATIONS.md](docs/OPERATIONS.md)
+- [docs/TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md)
 
 ## Requisitos
 
