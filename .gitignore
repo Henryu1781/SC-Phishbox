@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# secrets
+key.txt
+phishbox-security/.env
+
+# data
+phishbox-security/data/
+
+# OS
+.DS_Store
