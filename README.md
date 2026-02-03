@@ -1,5 +1,8 @@
 # SC-PhishBox
 
+![license](https://img.shields.io/badge/license-MIT-green)
+![docker](https://img.shields.io/badge/docker-required-blue)
+
 Sistema de triagem automática de e-mails suspeitos com ingestão IMAP, análise de anexos em sandbox e classificação automática em pastas IMAP (Clean/Infected).
 
 ## Visão geral
@@ -22,6 +25,16 @@ Mais detalhes:
 - [docs/CONFIGURATION.md](docs/CONFIGURATION.md)
 - [docs/OPERATIONS.md](docs/OPERATIONS.md)
 - [docs/TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md)
+- [docs/PREREQUISITES.md](docs/PREREQUISITES.md)
+- [docs/INSTALLATION.md](docs/INSTALLATION.md)
+- [docs/EXAMPLES.md](docs/EXAMPLES.md)
+- [docs/RETENTION_LOGS.md](docs/RETENTION_LOGS.md)
+- [docs/MONITORING.md](docs/MONITORING.md)
+- [docs/API.md](docs/API.md)
+- [docs/FAQ.md](docs/FAQ.md)
+- [docs/PRIVACY.md](docs/PRIVACY.md)
+- [CONTRIBUTING.md](CONTRIBUTING.md)
+- [ROADMAP.md](ROADMAP.md)
 
 ## Requisitos
 

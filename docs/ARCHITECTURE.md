@@ -1,5 +1,17 @@
 # Arquitetura
 
+## Diagrama
+
+```mermaid
+flowchart LR
+	IMAP[(IMAP Inbox)] --> INGEST[ingest]
+	INGEST --> API[api]
+	API --> REDIS[(Redis)]
+	REDIS --> WORKER[worker]
+	WORKER --> CLAMAV[(ClamAV)]
+	WORKER --> IMAP
+```
+
 ## Fluxo principal
 
 1. **ingest** consulta a inbox via IMAP e limita a 20 mensagens por ciclo.
